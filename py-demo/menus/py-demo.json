@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle py-demo",
+        "command": "py-demo:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "py-demo",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "py-demo:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
